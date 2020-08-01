@@ -13,6 +13,7 @@
 		242B1DB224D39F0A00313FE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242B1DB024D39F0A00313FE1 /* Main.storyboard */; };
 		242B1DB424D39F0D00313FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242B1DB324D39F0D00313FE1 /* Assets.xcassets */; };
 		242B1DB724D39F0D00313FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242B1DB524D39F0D00313FE1 /* LaunchScreen.storyboard */; };
+		2490A15124D4E5A10096487A /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2490A15024D4E5A10096487A /* CalculatorLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		242B1DB324D39F0D00313FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		242B1DB624D39F0D00313FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		242B1DB824D39F0D00313FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2490A15024D4E5A10096487A /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				242B1DB324D39F0D00313FE1 /* Assets.xcassets */,
 				242B1DB524D39F0D00313FE1 /* LaunchScreen.storyboard */,
 				242B1DB824D39F0D00313FE1 /* Info.plist */,
+				2490A15024D4E5A10096487A /* CalculatorLogic.swift */,
 			);
 			path = "Calculator for iPad";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2490A15124D4E5A10096487A /* CalculatorLogic.swift in Sources */,
 				242B1DAF24D39F0A00313FE1 /* ViewController.swift in Sources */,
 				242B1DAB24D39F0900313FE1 /* AppDelegate.swift in Sources */,
 				242B1DAD24D39F0A00313FE1 /* SceneDelegate.swift in Sources */,
